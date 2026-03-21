@@ -10,10 +10,18 @@ int Multiplicação(int n1, int n2){
     return n1*n2;
 }
 
+int Subtração(int n1, int n2){
+    return n1-n2;
+}
+
 int main(){
     int n, result;
     result = soma(n,10);
     printf("%d", result);
     result = divisão(n,10);
+    printf("%d", result);
+    result = Subtração(n,10);
+    printf("%d", result);
+    result = Multiplicação(n,10);
     printf("%d", result);
 }
